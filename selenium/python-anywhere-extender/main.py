@@ -61,24 +61,11 @@ try:
 
     extend_expiry_button.click()
 
-    """
-    TEST for tmr - want to check if there's a way to ensure it was successfully clicked:
-    
-    Add this to console to freeze (enter debugger) after clicking on the button:
-        document.querySelector('button.extend_scheduled_task').addEventListener('click', () => {
-            debugger;
-        });
-    
-    - Could just check if the date is different. Would fail if run multiple times on the same day though.
-    """
-    # wait.until(lambda driver: extend_expiry_button.get_attribute("disabled") is not None)
-    # assert extend_expiry_button.get_attribute("disabled") == "", "Button is not disabled after clicking"
-    #
-    # wait.until(lambda driver: extend_expiry_button.get_attribute("disabled") is None)
-    # assert extend_expiry_button.get_attribute("disabled") is None, "Button is not enabled after clicking"
+    ## Waits for action to complete
+    wait.until(lambda driver: extend_expiry_button.get_attribute("disabled") is not None)
+    wait.until(lambda driver: extend_expiry_button.get_attribute("disabled") is None)
 
     new_expiry_date = driver.find_element(By.CLASS_NAME, value="scheduled_tasks_expiry").text
-
     assert new_expiry_date >= expiry_date, "Extension not successfully applied"
 
 finally:
