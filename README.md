@@ -1,8 +1,10 @@
-![Python Projects](python_projects_title.png)
+<p align="center">
+  <img src="python_projects_title.png" alt="Python Projects" width="500">
+</p>
 
 ---
 
-A collection of the smaller **Python** projects I created while learning the language.
+A collection of some of the **Python** projects I created while learning the language.
 
 ## Projects
 ### Flask
