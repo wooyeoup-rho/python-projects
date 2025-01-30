@@ -1,0 +1,3 @@
+# Ignore html template
+name-card/templates/** linguist-vendored
+name-card/static/** linguist-vendored
