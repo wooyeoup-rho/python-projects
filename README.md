@@ -7,6 +7,11 @@
 A collection of some of the **Python** projects I created while learning the language.
 
 ## Projects
+### Tkinter
+- [Pomodoro App](https://github.com/wooyeoup-rho/pomodoro): Pomodoro timer built with Tkinter.
+- [Password Manager](https://github.com/wooyeoup-rho/password-manager): Password generator and manager. Saves credentials locally as a .csv.
+- [Korean Flashcards](https://github.com/wooyeoup-rho/korean-flashcards): Flashcard app for learning basic Korean words. Also features romanization of the word, audio playback, and rough AI generation of sentences using that word.
+- [Icon Convertor](https://github.com/wooyeoup-rho/icon-converter): Simple app that converts images to .ico files. Supports drag-and-drop.
 ### Flask
 - [Higher-lower guessing game](higher-lower/README.md): Very simple Flask app for a number guessing game.
 ### Selenium
