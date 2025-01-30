@@ -5,7 +5,7 @@ A simple website built with **Flask**. HTML and CSS for the website was provided
 ## Screenshot
 
 <p align="center">
-  <img src="website.png" alt="Screenshot of website" width="500">
+  <img src="website.png" alt="Screenshot of website" width="1000">
 </p>
 
 ## Technologies used

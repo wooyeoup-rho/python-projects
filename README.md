@@ -13,7 +13,8 @@ A collection of some of the **Python** projects I created while learning the lan
 - [Korean Flashcards](https://github.com/wooyeoup-rho/korean-flashcards): Flashcard app for learning basic Korean words. Also features romanization of the word, audio playback, and rough AI generation of sentences using that word.
 - [Icon Convertor](https://github.com/wooyeoup-rho/icon-converter): Simple app that converts images to .ico files. Supports drag-and-drop.
 ### Flask
-- [Higher-lower guessing game](higher-lower/README.md): Very simple Flask app for a number guessing game.
+- [Higher-lower guessing game](higher-lower/README.md): Simple Flask app for a number guessing game.
+- [Name card](name-card/README.md): Website built with Flask to showcase a name card.
 ### Selenium
 - [PythonAnywhere extender](selenium/python-anywhere-extender/README.md): Selenium script to automate extending the expiry of a PythonAnywhere task.
 - [Rental search data scraper](selenium/rental-search/README.md): Selenium script to search for and scrape the rental listings for a particular address.
