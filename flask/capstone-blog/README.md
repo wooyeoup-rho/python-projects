@@ -5,7 +5,7 @@ Simple blog website built with **Flask** and **Jinja**.
 Template provided by [Start Bootstrap](https://startbootstrap.com/previews/clean-blog).
 
 ## Showcase
-[Watch the video](showcase.mp4)
+https://github.com/user-attachments/assets/b40645dc-c327-4137-af78-b2823a215425
 
 ## Technologies Used
 - Python
