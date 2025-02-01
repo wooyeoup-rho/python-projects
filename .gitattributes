@@ -1,3 +1,4 @@
-# Ignore html template
-name-card/templates/** linguist-vendored
-name-card/static/** linguist-vendored
+# Ignores html/css
+**/templates/** linguist-vendored
+**/static/** linguist-vendored
+
