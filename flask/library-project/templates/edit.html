@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 {% from 'bootstrap5/form.html' import render_form %}
-{% block title %}Add Book{% endblock %}
+{% block title %}Edit {{book.title}} {% endblock %}
 {% block content %}
 <div class="container">
     <div class="row">
     <div class="col-sm-12 col-md-8">
 
-      <h1>Add a new book to the library</h1>
+      <h1>Editing <span class="book-title">{{book.title}}</span></h1>
       {{ render_form(form, novalidate=True) }}
 	  <p class="space-above"><a href=" {{ url_for('home') }} ">See library</a></p>
 
