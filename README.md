@@ -18,6 +18,7 @@ A collection of some of the **Python** projects I created while learning the lan
 - [Blog](flask/capstone-blog/README.md): Blog website built with Flask and Jinja.
 - [Coffee & Wi-Fi](flask/coffee-and-wifi/README.md): Styled website to add ratings for coffee shops.
 - [Library](flask/library-project/README.md): Website to add and track read books.
+- [Top Movies](flask/top-movies/README.md): Website to add and rank movies.
 ### Selenium
 - [PythonAnywhere extender](selenium/python-anywhere-extender/README.md): Selenium script to automate extending the expiry of a PythonAnywhere task.
 - [Rental search data scraper](selenium/rental-search/README.md): Selenium script to search for and scrape the rental listings for a particular address.
