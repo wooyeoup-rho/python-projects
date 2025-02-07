@@ -7,6 +7,7 @@ Top movie showcase website built with **Flask** and **SQLite**.
 
 ## Showcase
 
+https://github.com/user-attachments/assets/d5290e8d-3065-49d7-9853-af8b04c36828
 
 ## Technologies Used
 - Python
