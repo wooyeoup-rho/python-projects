@@ -1,5 +1,4 @@
-import random, json
-from flask import Flask, jsonify, render_template, request, redirect, url_for
+from flask import Flask, jsonify, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy import func, Integer, String, Boolean
@@ -84,8 +83,6 @@ def search_cafe():
         else:
             return jsonify(error={"Not Found": "Sorry, we don't have a cafe at that location"}), 404
 
-    # return jsonify(cafes=cafe_list)
-
 # HTTP POST - Create Record
 @app.route("/add", methods=["POST"])
 def add_cafe():
@@ -138,7 +135,7 @@ def delete_cafe(cafe_id):
     api_key = request.args.get("api_key")
 
     if api_key != SECRET_KEY:
-        return jsonify(response={"error": "Sorry, that's not allowed. Make sure you have the correct api key."})
+        return jsonify(response={"Error": "Sorry, that's not allowed. Make sure you have the correct api key."})
     else:
         with app.app_context():
             cafe = db.get_or_404(
