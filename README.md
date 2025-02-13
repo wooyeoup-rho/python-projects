@@ -16,6 +16,7 @@ A collection of some of the **Python** projects I created while learning the lan
 - [Higher-lower guessing game](flask/higher-lower/README.md): Simple Flask app for a number guessing game.
 - [Name card](flask/name-card/README.md): Website built with Flask to showcase a name card.
 - [Blog](flask/capstone-blog/README.md): Blog website built with Flask and Jinja.
+- [Upgraded Blog](flask/upgraded-blog/README.md): Upgraded blog website that incorporates SQLAlchemy and databases.
 - [Coffee & Wi-Fi](flask/coffee-and-wifi/README.md): Styled website to add ratings for coffee shops.
 - [Library](flask/library-project/README.md): Website to add and track read books.
 - [Top Movies](flask/top-movies/README.md): Website to add and rank movies.
