@@ -12,6 +12,7 @@ A collection of some of the **Python** projects I created while learning the lan
 - [Password Manager](https://github.com/wooyeoup-rho/password-manager): Password generator and manager. Saves credentials locally as a .csv.
 - [Korean Flashcards](https://github.com/wooyeoup-rho/korean-flashcards): Flashcard app for learning basic Korean words. Also features romanization of the word, audio playback, and rough AI generation of sentences using that word.
 - [Icon Convertor](https://github.com/wooyeoup-rho/icon-converter): Simple app that converts images to .ico files. Supports drag-and-drop.
+- [PDF Title Changer](https://github.com/wooyeoup-rho/pdf-title-changer): Simple app that changes a PDF files metadata title. Supports drag-and-drop.
 ### Flask
 - [Higher-lower guessing game](flask/higher-lower/README.md): Simple Flask app for a number guessing game.
 - [Name card](flask/name-card/README.md): Website built with Flask to showcase a name card.
