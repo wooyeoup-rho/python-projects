@@ -46,7 +46,7 @@ try :
     apartments_button = driver.find_element(By.CSS_SELECTOR, value="label[title='All Apartments']")
     apartments_button.click()
 
-    wait.until(EC.text_to_be_present_in_element((By.TAG_NAME, "h1"), "All Apartments for Rent"))
+    wait.until(EC.url_contains("/all-apartments"))
 
     # Gets listing information
     listing_cards = driver.find_elements(By.CLASS_NAME, value="listing-card-container")
