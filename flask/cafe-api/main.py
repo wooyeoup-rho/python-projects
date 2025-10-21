@@ -146,7 +146,7 @@ def delete_cafe(cafe_id):
             db.session.delete(cafe)
             db.session.commit()
 
-        return jsonify(response={"Success": "Successfully updated the price."})
+        return jsonify(response={"Success": "Successfully deleted the entry."})
 
 if __name__ == '__main__':
     app.run(debug=True)
